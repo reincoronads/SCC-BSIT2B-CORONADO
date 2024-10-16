@@ -1,0 +1,70 @@
+**WELCOME TO GYM MEMBERSHIP**
+1. Manage Client
+2. Manage Coach
+3. Manage Progam
+4. Membership
+
+IF 1 is selected, this should prompt:
+
+--MANAGE CLIENT--
+1. ADD
+2. VIEW
+3. UPDATE
+4. DELETE
+
+IF 2 is selected, this should prompt:
+--MANAGE COACH --
+1. ADD
+2. VIEW
+3. UPDATE
+4. DELETE
+
+
+IF 3 is selected, this should prompt:
+
+
+ADD CLIENT METHOD:
+ ENTER FIRST NAME:
+ ENTER LAST NAME:
+ ENTER EMAIL:
+ ENTER PHONE:
+
+CLIENT TABLE:
+----------------------------------------------------------------------
+|                CLIENT LIST                                         | 
+----------------------------------------------------------------------
+| C_ID |   FNAME   |  LNAME   |     EMAIL           |   PHONE NUMBER |
+----------------------------------------------------------------------
+|  101 |  John     |  Smith   | john.s@gmail.com    | 123-456-7890   |
+|  102 |  Emily    |  Davis   | emily.d@gmail.com   | 098-765-4321   |
+|  103 |  Michael  |  Brown   | michael.b@gmail.com | 555-123-4567   |
+|  104 |  Sarah    |  Lee     | sarah.l@gmail.com   | 444-321-6789   |
+|  105 |  Daniel   |  Wilson  | daniel.w@gmail.com  | 333-987-6543   |
+----------------------------------------------------------------------
+
+COACH TABLE:
+------------------------------------------------------------------------------------------------------------
+|  Coach_ID  |   First Name   |   Last Name   |      Email            |    Phone Number   | Specialization   |
+------------------------------------------------------------------------------------------------------------
+|    201     |    Nap         |    Batoon     | Batoon.doe@gmail.com  | 123-456-7890      | Strength Training|
+|    202     |    Ivan        |    Clark      | Clark.c@gmail.com     | 098-765-4321      | Yoga             |
+|    203     |    Kenneth     |    Obaob      |  Obaob.b@gmail.com    | 555-123-4567      | Cardio           |
+------------------------------------------------------------------------------------------------------------
+
+PROGRAM TABLE:
+------------------------------------------------------------------------
+| Program_ID |   Program Name   |        Description        | Duration |  
+------------------------------------------------------------------------
+|     301    |   Yoga Basics    |  Introduction to yoga     |  4 weeks | 
+|     302    |   Strength Boost |  Full-body strength train.| 12 weeks | 
+|     303    |   Cardio Blast   |  High-intensity cardio    |  6 weeks | 
+------------------------------------------------------------------------
+
+MEMBERSHIP TABLE:
+---------------------------------------------------------------------------------------------
+| Membership_ID | Client_ID | Program_ID | Coach_ID |  Start Date  |  End Date   | Status   | 
+---------------------------------------------------------------------------------------------
+|     501       |    101    |    301     |   201    |  2024-11-01  | 2024-11-29  | Active   |           
+|     502       |    102    |    302     |   202    |  2024-10-15  | 2025-01-15  | Ongoing  |      
+|     503       |    103    |    303     |   203    |  2024-10-25  | 2024-12-06  | Active   |      
+---------------------------------------------------------------------------------------------
